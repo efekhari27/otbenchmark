@@ -47,6 +47,8 @@ from .GSobolSensitivity import GSobolSensitivity
 from .ConditionalDistribution import ConditionalDistribution
 from .CrossCutFunction import CrossCutFunction
 from .CrossCutDistribution import CrossCutDistribution
+from .CentralTendencyBenchmarkProblem import CentralTendencyBenchmarkProblem
+from .CentralTendencyProblem22 import CentralTendencyProblem22
 
 # from .CentralDispersionBenchmarkProblem import
 # CentralDispersionBenchmarkProblem
@@ -100,5 +102,7 @@ __all__ = [
     "ReliabilityBenchmarkMetaAlgorithm",
     "ReliabilityBenchmarkResult",
     "SensitivityBenchmarkProblemList",
+    "CentralTendencyBenchmarkProblem",
+    "CentralTendencyProblem22",
 ]
 __version__ = "1.0"
